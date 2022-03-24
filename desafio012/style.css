@@ -23,7 +23,6 @@ header > h1{
     font-family: 'Passion One', cursive;
     font-size: 100px; 
     padding-top: 50px;
-    
 }
 
 header > p{
@@ -34,10 +33,13 @@ header > p{
 a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-p{
-    font-family: 'Sriracha', cursive;
-    color: black;
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
 }
