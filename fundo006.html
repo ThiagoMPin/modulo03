@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
@@ -12,10 +12,21 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* 
+            Shorthand- background
+            color > image > position > repeat > [size] > attachment.
+            O 'size' ficou daquele jeito pois ele nao funciona nesse versao do vscode , ainda, como o shorthand.
+            Ele ficaria assim:
+             - background: black url('imagens/wallpaper002.jpg') center top no-repeat fixes
+            */
+
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,6 +37,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam iusto velit debitis a, quibusdam vitae saepe voluptatum aspernatur perferendis tempora asperiores quisquam dignissimos, laudantium sunt, modi quia repellat libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, eos sunt quasi illo ad, ipsa quisquam repudiandae ipsam, consectetur fuga voluptatibus minus nostrum assumenda beatae voluptates eveniet laborum. Laborum, ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas amet error similique, laborum corporis animi laboriosam ad aspernatur obcaecati doloribus eligendi a sit at temporibus quae? Recusandae, nobis aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam iusto velit debitis a, quibusdam vitae saepe voluptatum aspernatur perferendis tempora asperiores quisquam dignissimos, laudantium sunt, modi quia repellat libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, eos sunt quasi illo ad, ipsa quisquam repudiandae ipsam, consectetur fuga voluptatibus minus nostrum assumenda beatae voluptates eveniet laborum. Laborum, ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas amet error similique, laborum corporis animi laboriosam ad aspernatur obcaecati doloribus eligendi a sit at temporibus quae? Recusandae, nobis aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam iusto velit debitis a, quibusdam vitae saepe voluptatum aspernatur perferendis tempora asperiores quisquam dignissimos, laudantium sunt, modi quia repellat libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, eos sunt quasi illo ad, ipsa quisquam repudiandae ipsam, consectetur fuga voluptatibus minus nostrum assumenda beatae voluptates eveniet laborum. Laborum, ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas amet error similique, laborum corporis animi laboriosam ad aspernatur obcaecati doloribus eligendi a sit at temporibus quae? Recusandae, nobis aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam iusto velit debitis a, quibusdam vitae saepe voluptatum aspernatur perferendis tempora asperiores quisquam dignissimos, laudantium sunt, modi quia repellat libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, eos sunt quasi illo ad, ipsa quisquam repudiandae ipsam, consectetur fuga voluptatibus minus nostrum assumenda beatae voluptates eveniet laborum. Laborum, ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas amet error similique, laborum corporis animi laboriosam ad aspernatur obcaecati doloribus eligendi a sit at temporibus quae? Recusandae, nobis aut.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam iusto velit debitis a, quibusdam vitae saepe voluptatum aspernatur perferendis tempora asperiores quisquam dignissimos, laudantium sunt, modi quia repellat libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, eos sunt quasi illo ad, ipsa quisquam repudiandae ipsam, consectetur fuga voluptatibus minus nostrum assumenda beatae voluptates eveniet laborum. Laborum, ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas amet error similique, laborum corporis animi laboriosam ad aspernatur obcaecati doloribus eligendi a sit at temporibus quae? Recusandae, nobis aut.</p>
     </main>
 </body>
