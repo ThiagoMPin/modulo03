@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table.first{
+                    width: 500px;
+                    height: 400px;
+                    border-collapse: collapse;
+                }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            
+        }
+
+        td#yellow{
+            background-color: yellow;
+            
+        }
+
+        tr.linha{
+            background-color: palegreen;
+        }
+
+
+
+        .second{
+            border: 2px solid darkgray;
+        }
+
+        .top{
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Segue abaixo uma tabela de exemplo:</h1>
+
+    <!--
+        HIERARQUIA DE TABELA (SIMPLES)
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+    -->
+
+    <table class="first">
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+            <td>D1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha">
+            <td >A3</td>
+            <td class="top">B3</td>
+        </tr>
+        <tr>
+            <td id="yellow">A4</td>
+            
+        </tr>
+
+    </table>
+    <br><br>
+
+    <h2>Agora note a segunda tabela feita:</h2>
+    <table class="second">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Time</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td >Thiago</td>
+            <td>23</td>
+            <td>Flamengo</td>
+            <td>Desenvolverdor Web</td>
+        </tr>
+        <tr>
+            <td>Iris</td>
+            <td>18</td>
+            <td>Botafogo</td>
+            <td>Militar</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
